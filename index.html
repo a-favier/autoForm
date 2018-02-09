@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<form method="post" action="index.html" id="myForm" onsubmit="return aform_submit('myForm')">
+    <fieldset>
+        <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+
+        <label for="nombre">Champ Type Number</label>
+        <input type="text" name="nombre" id="nombre" class="aform_number"/><br />
+
+        <label for="nombre">Champ Type Number</label>
+        <input type="text" name="nombre" id="nombre2" class="aform_number"/><br />
+
+        <label for="date">Champ Type Date</label>
+        <input type="text" name="date" id="date" class="aform_date"/><br />
+
+        <label for="date">Champ Type Date Auto </label>
+        <input type="text" name="date" id="date2" class="aform_date aform_dateAuto"/><br />
+
+        <label for="mail">Champ Type Mail</label>
+        <input type="text" name="mail" id="mail" class="aform_mail"/><br />
+
+        <label for="tel">Champs Type Tel</label>
+        <input type="text" name="tel" id="tel" class="aform_tel"/><br />
+
+        <input type="submit" value="Envoyer" />
+    </fieldset>
+</form>
+
+<script src="js.js"></script>
+</body>
+</html>
